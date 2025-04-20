@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f495c5f2-f9f5-4d8a-bf7a-2928a00a870b")
+	(paper "A4")
+	(title_block
+		(title "01. LED BOARD")
+		(date "2025-04-20")
+		(rev "0.0.1")
+		(company "GOBAL KRISHNAN ")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
