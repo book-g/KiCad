@@ -495,7 +495,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPDT_x2"
+		(symbol "Switch:SW_DPST_x2"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -504,15 +504,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 5.08 0)
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DPDT_x2"
-				(at 0 -5.08 0)
+			(property "Value" "SW_DPST_x2"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -537,7 +537,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Switch, dual pole double throw, separate symbols"
+			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -546,7 +546,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+			(property "ki_keywords" "switch lever"
 				(at 0 0 0)
 				(effects
 					(font
@@ -555,16 +555,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*DPDT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_0"
+			(symbol "SW_DPST_x2_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -576,33 +567,9 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
+						(xy -1.524 0.254) (xy 1.524 1.778)
 					)
 					(stroke
 						(width 0)
@@ -613,7 +580,7 @@
 					)
 				)
 				(circle
-					(center 2.032 2.54)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -624,27 +591,9 @@
 					)
 				)
 			)
-			(symbol "SW_DPDT_x2_1_1"
+			(symbol "SW_DPST_x2_1_1"
 				(pin passive line
 					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -662,9 +611,29 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "C"
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -679,10 +648,8 @@
 						)
 					)
 				)
-			)
-			(symbol "SW_DPDT_x2_2_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -691,43 +658,7 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -747,7 +678,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "366a0832-3bcd-40ab-99b2-5d84f31697f9")
 		(property "Reference" "D1"
 			(at 159.7025 78.74 0)
@@ -765,13 +695,12 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.29 85.09 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 154.94 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -818,7 +747,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 175.26 101.6 0)
+		(at 176.53 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -827,25 +756,23 @@
 		(fields_autoplaced yes)
 		(uuid "68740d0d-67fb-46e7-85dd-7f7b5007cc47")
 		(property "Reference" "BT1"
-			(at 179.07 98.4884 0)
+			(at 174.6885 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 179.07 101.0284 0)
+			(at 174.6885 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.26 100.076 90)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1058_1x2032"
+			(at 175.006 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 100.076 90)
+			(at 175.006 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +790,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 175.26 101.6 0)
+			(at 176.53 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,88 +814,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 198.12 97.79 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9264d9af-7943-40ed-a1e3-a01cf2104f1f")
-		(property "Reference" "SW1"
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPDT_x2"
-			(at 198.12 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 198.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f62fecc2-d131-4610-a2b6-b54659f77429")
-		)
-		(pin "5"
-			(uuid "f7161f56-5e6e-462f-8009-d56bb1b198dc")
-		)
-		(pin "3"
-			(uuid "07db7a89-d107-4512-9c50-1b7def44fb75")
-		)
-		(pin "4"
-			(uuid "845d7d23-8273-4499-9cfb-418695130e8d")
-		)
-		(pin "6"
-			(uuid "80b20c19-8d70-418f-b97d-044312074886")
-		)
-		(pin "1"
-			(uuid "6eeccc22-e631-4fb1-835b-c9720aeb5b2c")
-		)
-		(instances
-			(project ""
-				(path "/f495c5f2-f9f5-4d8a-bf7a-2928a00a870b"
-					(reference "SW1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 196.85 80.01 0)
+		(lib_id "Switch:SW_DPST_x2")
+		(at 191.77 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -977,7 +824,7 @@
 		(fields_autoplaced yes)
 		(uuid "b967689f-cccc-4eb6-aec6-de8ac6015d3f")
 		(property "Reference" "SW1"
-			(at 196.85 71.12 0)
+			(at 191.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,15 +832,15 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 196.85 73.66 0)
+			(at 191.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 80.01 0)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx"
+			(at 191.77 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 80.01 0)
+			(at 191.77 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,8 +857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 196.85 80.01 0)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 191.77 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,17 +869,11 @@
 		(pin "2"
 			(uuid "f62fecc2-d131-4610-a2b6-b54659f77429")
 		)
-		(pin "5"
-			(uuid "f7161f56-5e6e-462f-8009-d56bb1b198dc")
-		)
 		(pin "3"
 			(uuid "07db7a89-d107-4512-9c50-1b7def44fb75")
 		)
 		(pin "4"
 			(uuid "845d7d23-8273-4499-9cfb-418695130e8d")
-		)
-		(pin "6"
-			(uuid "80b20c19-8d70-418f-b97d-044312074886")
 		)
 		(pin "1"
 			(uuid "6eeccc22-e631-4fb1-835b-c9720aeb5b2c")
@@ -1072,7 +913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 175.26 86.868 90)
 			(effects
 				(font
