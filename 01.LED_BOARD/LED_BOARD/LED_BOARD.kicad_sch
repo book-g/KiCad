@@ -670,6 +670,86 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 203.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111190fc-0415-4605-9465-f32e3d910536")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d975137-e785-4685-a9e7-913174bd1bc1")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd33919-29a7-4a3b-b023-7d78eeddd2a2")
+	)
+	(wire
+		(pts
+			(xy 171.45 85.09) (xy 165.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c89b710-5eab-4a58-90df-529e83c869a4")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 196.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8c9784-4d22-4258-9c70-8396ded2f0b2")
+	)
+	(wire
+		(pts
+			(xy 203.2 101.6) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7caa9dd3-2aa7-4d0f-be3d-5e9c4c274399")
+	)
+	(wire
+		(pts
+			(xy 186.69 85.09) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9285c0c2-7f56-405e-8066-cfa4d6b7f80e")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7351ac5-fff8-4dbb-b750-b4bf745cf0bf")
+	)
 	(symbol
 		(lib_id "Device:LED")
 		(at 161.29 85.09 0)
@@ -747,7 +827,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 176.53 101.6 90)
+		(at 176.53 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -756,7 +836,7 @@
 		(fields_autoplaced yes)
 		(uuid "68740d0d-67fb-46e7-85dd-7f7b5007cc47")
 		(property "Reference" "BT1"
-			(at 174.6885 93.98 90)
+			(at 178.3715 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,7 +844,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 174.6885 96.52 90)
+			(at 178.3715 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +852,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_1058_1x2032"
-			(at 175.006 101.6 90)
+			(at 178.054 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.006 101.6 90)
+			(at 178.054 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
