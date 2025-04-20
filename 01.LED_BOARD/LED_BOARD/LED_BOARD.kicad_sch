@@ -670,6 +670,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 147.447 74.295)
+		(end 205.867 104.775)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a9ecc3f1-f2b0-4e67-ac90-d2fec37d009d)
+	)
+	(text "LED BOARD\n"
+		(exclude_from_sim no)
+		(at 153.416 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5149bc85-f590-425e-a25b-1afc2aabe9c5")
+	)
 	(wire
 		(pts
 			(xy 181.61 101.6) (xy 203.2 101.6)
@@ -750,6 +772,36 @@
 		)
 		(uuid "b7351ac5-fff8-4dbb-b750-b4bf745cf0bf")
 	)
+	(label "BAT_POS"
+		(at 184.15 101.6 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "24ab8cbb-968f-47e3-90b1-30f924deb92b")
+	)
+	(label "LED_ANODE"
+		(at 167.64 85.09 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "43175fb7-22d2-4359-b2c0-5fbe0e0f633b")
+	)
+	(label "LED_CATHODE"
+		(at 152.4 85.09 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "46a959b3-f430-4719-96b2-cb82929beb6c")
+	)
 	(symbol
 		(lib_id "Device:LED")
 		(at 161.29 85.09 0)
@@ -776,10 +828,10 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 154.94 88.138 90)
+			(at 163.576 87.122 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 			)
 		)
