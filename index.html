@@ -1,1 +1,70 @@
-hello
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Babylon.js – Centered Pivot Rotation (GitHub)</title>
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/loaders/babylon.glTF2FileLoader.min.js"></script>
+</head>
+<body style="margin:0; overflow:hidden;">
+  <canvas id="renderCanvas" style="width:100vw; height:100vh;"></canvas>
+  <script>
+    const canvas = document.getElementById("renderCanvas");
+    const engine = new BABYLON.Engine(canvas, true);
+
+    async function createScene() {
+      const scene = new BABYLON.Scene(engine);
+
+      // — CAMERA & LIGHT —
+      const camera = new BABYLON.ArcRotateCamera(
+        "cam",
+        Math.PI / 2,
+        Math.PI / 3,
+        15,
+        BABYLON.Vector3.Zero(),
+        scene
+      );
+      camera.attachControl(canvas, true);
+      new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0), scene);
+
+      // — IMPORT & GROUP —
+      const result = await BABYLON.SceneLoader.ImportMeshAsync(
+        "", 
+        "https://raw.githubusercontent.com/book-g/KiCad/master/01.LED_BOARD/LED_BOARD/", 
+        "LED_BOARD.glb", 
+        scene
+      );
+
+      const parent = new BABYLON.TransformNode("ModelGroup", scene);
+      result.meshes.forEach(mesh => {
+        if (mesh !== parent && mesh.parent == null) {
+          mesh.setParent(parent);
+        }
+      });
+
+      // — COMPUTE GROUP BOUNDS —
+      const { min, max } = parent.getHierarchyBoundingVectors(true);
+      const center = min.add(max).scale(0.5);
+      const size   = max.subtract(min).length();
+
+      // — CENTER AT ORIGIN —
+      parent.position = center.scale(-1);
+
+      // — OPTIONAL: SCALE UP IF MODEL IS SMALL —
+      parent.scaling = new BABYLON.Vector3(20, 20, 20);
+
+      // — ANIMATE: ROTATE AROUND CENTER PIVOT —
+      scene.onBeforeRenderObservable.add(() => {
+        parent.rotation.y += 0.005;
+      });
+
+      return scene;
+    }
+
+    createScene().then(scene => {
+      engine.runRenderLoop(() => scene.render());
+      window.addEventListener("resize", () => engine.resize());
+    });
+  </script>
+</body>
+</html>
