@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "de9bbf93-a223-4f7e-99a1-ef985a7580b6")
+	(paper "A4")
+	(title_block
+		(title "POWER_SUPPLY_BB")
+		(date "2025-04-23")
+		(rev "0.0.2")
+		(company "Gobal Krishnan")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
