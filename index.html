@@ -1,28 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PCB</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCB Viewer Grid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #333;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .grid-item {
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      text-align: center;
+    }
+
+    iframe {
+      border: none;
+      width: 300px;
+      height: 300px;
+      border-radius: 8px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <a href="led_board.html">
-    <h1>Led Board</h1>
-    <iframe 
-        src="https://sandbox.babylonjs.com/?assetUrl=https://raw.githubusercontent.com/book-g/KiCad/master/01.LED_BOARD/LED_BOARD/LED_BOARD.glb&autoRotate=true" 
-        width="300px" 
-        height="300px" 
-        style="border: none;">
-    </iframe></a>
 
-    <a href="led_board.html">
-        <h1>Power Supply Bread Board</h1>
-        <iframe 
-            src="https://sandbox.babylonjs.com/?assetUrl=https://raw.githubusercontent.com/book-g/KiCad/master/02.POWER_SUPPLY_BB/02.POWER_SUPPLY_BB/02.POWER_SUPPLY_BB.glb&autoRotate=true" 
-            width="300px" 
-            height="300px" 
-            style="border: none;">
-        </iframe></a>
+  <h1>3D PCB Viewer</h1>
+  <div class="grid-container">
+
+    <a href="led_board.html" class="grid-item">
+      <h1>LED Board</h1>
+      <iframe 
+        src="https://sandbox.babylonjs.com/?assetUrl=https://raw.githubusercontent.com/book-g/KiCad/master/01.LED_BOARD/LED_BOARD/LED_BOARD.glb&autoRotate=true">
+      </iframe>
+    </a>
+
+    <a href="power_supply_bb.html" class="grid-item">
+      <h1>Power Supply Breadboard</h1>
+      <iframe 
+        src="https://sandbox.babylonjs.com/?assetUrl=https://raw.githubusercontent.com/book-g/KiCad/master/02.POWER_SUPPLY_BB/02.POWER_SUPPLY_BB/02.POWER_SUPPLY_BB.glb&autoRotate=true">
+      </iframe>
+    </a>
+
+  </div>
+
 </body>
 </html>
-
