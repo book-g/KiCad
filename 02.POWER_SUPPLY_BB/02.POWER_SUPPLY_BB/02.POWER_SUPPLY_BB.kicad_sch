@@ -1977,6 +1977,72 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 25.4 101.6)
+		(end 127 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0b3eff07-24bd-4c9a-a073-8bac2fa1dead)
+	)
+	(rectangle
+		(start 160.02 50.8)
+		(end 213.36 153.035)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aae19ea3-ffcb-45a7-ba33-9fdaf8a6587d)
+	)
+	(rectangle
+		(start 25.4 58.42)
+		(end 137.16 94.615)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d5423b02-06c3-4c14-bef8-44e3351ebd78)
+	)
+	(text "3.3v Circuit"
+		(exclude_from_sim no)
+		(at 30.988 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d8f9785-cd30-46ef-bcfb-0b13979e23a9")
+	)
+	(text "Output and Switches"
+		(exclude_from_sim no)
+		(at 169.672 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6044febc-a987-4a81-ac3a-a51c6dcd39cf")
+	)
+	(text "Input and 5V circuit"
+		(exclude_from_sim no)
+		(at 34.798 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5efa3ac-7270-4def-bb92-d96569d08107")
+	)
 	(junction
 		(at 106.68 114.3)
 		(diameter 0)
