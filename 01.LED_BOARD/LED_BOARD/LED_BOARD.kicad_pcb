@@ -929,7 +929,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DPDT_x2"
+		(property "Value" "SW_DPST_x2"
 			(at 3.2 6.5 0)
 			(layer "F.SilkS")
 			(uuid "ff426dd8-4208-40e5-8628-fe765728ab2c")
