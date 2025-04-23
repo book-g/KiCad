@@ -1777,7 +1777,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 69.85 0)
+		(at 124.46 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1786,7 +1786,7 @@
 		(fields_autoplaced yes)
 		(uuid "041c41be-9467-4f3e-9f43-42d7d08d7ba8")
 		(property "Reference" "C2"
-			(at 168.91 68.5799 0)
+			(at 128.27 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1795,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 168.91 71.1199 0)
+			(at 128.27 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.0652 73.66 0)
+			(at 125.4252 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 69.85 0)
+			(at 124.46 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1822,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 165.1 69.85 0)
+			(at 124.46 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1847,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 92.71 0)
+		(at 91.44 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1856,7 +1856,7 @@
 		(fields_autoplaced yes)
 		(uuid "19ea63ba-8571-450b-978b-6a259e0b579c")
 		(property "Reference" "R3"
-			(at 173.99 91.4399 0)
+			(at 93.98 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1865,7 @@
 			)
 		)
 		(property "Value" "560"
-			(at 173.99 93.9799 0)
+			(at 93.98 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.672 92.71 90)
+			(at 89.662 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 92.71 0)
+			(at 91.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1892,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 92.71 0)
+			(at 91.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1917,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 140.97 82.55 0)
+		(at 74.93 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1926,7 +1926,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bfa31f4-522b-470d-81ba-e9da54ea2fda")
 		(property "Reference" "D1"
-			(at 139.3825 76.2 0)
+			(at 76.5175 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +1934,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 139.3825 78.74 0)
+			(at 76.5175 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 82.55 0)
+			(at 74.93 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 82.55 0)
+			(at 74.93 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 140.97 82.55 0)
+			(at 74.93 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1969,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 82.55 0)
+			(at 74.93 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +1994,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 151.13 92.71 0)
+		(at 91.44 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2003,7 +2003,7 @@
 		(fields_autoplaced yes)
 		(uuid "23f2ad5f-7a49-476a-b9bc-351e82f494a6")
 		(property "Reference" "R1"
-			(at 153.67 91.4399 0)
+			(at 93.98 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +2012,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 153.67 93.9799 0)
+			(at 93.98 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.352 92.71 90)
+			(at 89.662 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 92.71 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 92.71 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2064,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
-		(at 99.06 102.87 0)
+		(at 71.12 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2073,7 +2073,7 @@
 		(fields_autoplaced yes)
 		(uuid "49dc29f7-ca60-4c28-99bd-4a32f9c379e7")
 		(property "Reference" "U2"
-			(at 99.06 96.52 0)
+			(at 71.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 			)
 		)
 		(property "Value" "LM317_TO-220"
-			(at 99.06 99.06 0)
+			(at 71.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2089,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 99.06 96.52 0)
+			(at 71.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2099,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-			(at 99.06 102.87 0)
+			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2108,7 @@
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
-			(at 99.06 102.87 0)
+			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2136,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 69.85 0)
+		(at 78.74 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2145,7 +2145,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c42dd33-3422-4067-bd2a-f0a33d022150")
 		(property "Reference" "C1"
-			(at 154.94 68.5799 0)
+			(at 82.55 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2154,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 154.94 71.1199 0)
+			(at 82.55 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.0952 73.66 0)
+			(at 79.7052 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 69.85 0)
+			(at 78.74 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2181,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 69.85 0)
+			(at 78.74 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2206,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 92.71 0)
+		(at 52.07 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2215,7 +2215,7 @@
 		(fields_autoplaced yes)
 		(uuid "55150ee8-a858-4457-9cc4-91bdb3c1181b")
 		(property "Reference" "R2"
-			(at 163.83 91.4399 0)
+			(at 54.61 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2224,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 163.83 93.9799 0)
+			(at 54.61 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.512 92.71 90)
+			(at 50.292 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 92.71 0)
+			(at 52.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2251,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 92.71 0)
+			(at 52.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,33 +2275,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 74.93 78.74 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 223.52 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c8075f3-1ad8-4bc8-ae66-826ae2ea2dd9")
-		(property "Reference" "J3"
-			(at 75.565 71.12 0)
+		(uuid "5b12d9cf-041d-423f-b942-b6688a24a7fb")
+		(property "Reference" "J7"
+			(at 226.06 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 75.565 73.66 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 226.06 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 78.74 0)
+			(at 223.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2312,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 78.74 0)
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6da8b1ef-eb23-4fba-9e80-1eafc82135c3")
+		)
+		(pin "1"
+			(uuid "4da74dcd-31c8-4188-b324-e3c32b7ab4d4")
+		)
+		(instances
+			(project "02.POWER_SUPPLY_BB"
+				(path "/de9bbf93-a223-4f7e-99a1-ef985a7580b6"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 218.44 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c8075f3-1ad8-4bc8-ae66-826ae2ea2dd9")
+		(property "Reference" "J3"
+			(at 219.075 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 219.075 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2389,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 74.93 78.74 0)
+			(at 218.44 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2417,7 @@
 	)
 	(symbol
 		(lib_id "dk_Slide-Switches:EG1218")
-		(at 27.94 73.66 0)
+		(at 52.07 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2356,7 +2426,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e26aa69-dd1f-4e7d-82a1-7adb2b8814a1")
 		(property "Reference" "S1"
-			(at 28.1432 66.04 0)
+			(at 52.2732 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2434,7 @@
 			)
 		)
 		(property "Value" "EG1218"
-			(at 28.1432 68.58 0)
+			(at 52.2732 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2442,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:Switch_Slide_11.6x4mm_EG1218"
-			(at 33.02 68.58 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2452,7 @@
 			)
 		)
 		(property "Datasheet" "http://spec_sheets.e-switch.com/specs/P040040.pdf"
-			(at 33.02 66.04 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2392,7 +2462,7 @@
 			)
 		)
 		(property "Description" "SWITCH SLIDE SPDT 200MA 30V"
-			(at 27.94 73.66 0)
+			(at 52.07 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2471,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "EG1903-ND"
-			(at 33.02 63.5 0)
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2411,7 +2481,7 @@
 			)
 		)
 		(property "MPN" "EG1218"
-			(at 33.02 60.96 0)
+			(at 57.15 60.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2421,7 +2491,7 @@
 			)
 		)
 		(property "Category" "Switches"
-			(at 33.02 58.42 0)
+			(at 57.15 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2431,7 +2501,7 @@
 			)
 		)
 		(property "Family" "Slide Switches"
-			(at 33.02 55.88 0)
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2441,7 +2511,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "http://spec_sheets.e-switch.com/specs/P040040.pdf"
-			(at 33.02 53.34 0)
+			(at 57.15 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2451,7 +2521,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/e-switch/EG1218/EG1903-ND/101726"
-			(at 33.02 50.8 0)
+			(at 57.15 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2461,7 +2531,7 @@
 			)
 		)
 		(property "Description_1" "SWITCH SLIDE SPDT 200MA 30V"
-			(at 33.02 48.26 0)
+			(at 57.15 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2471,7 +2541,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 33.02 45.72 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2481,7 +2551,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 33.02 43.18 0)
+			(at 57.15 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2510,7 +2580,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 40.64 110.49 0)
+		(at 27.94 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2519,7 +2589,7 @@
 		(fields_autoplaced yes)
 		(uuid "91197a6c-af0f-4a9c-b6ec-922a85d5c85e")
 		(property "Reference" "J6"
-			(at 40.64 101.6 0)
+			(at 27.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2597,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 40.64 104.14 0)
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 111.506 0)
+			(at 29.21 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 111.506 0)
+			(at 29.21 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2623,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 40.64 110.49 0)
+			(at 27.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2651,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 96.52 57.15 0)
+		(at 219.71 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2590,7 +2660,7 @@
 		(fields_autoplaced yes)
 		(uuid "96f18739-1e28-4b09-bfc5-2a26961f5d37")
 		(property "Reference" "J2"
-			(at 97.155 52.07 0)
+			(at 220.345 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2668,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 97.155 54.61 0)
+			(at 220.345 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 57.15 0)
+			(at 219.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 57.15 0)
+			(at 219.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2694,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 96.52 57.15 0)
+			(at 219.71 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2719,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 30.48 48.26 0)
+		(at 222.25 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2658,7 +2728,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b1be365-2cb2-4891-b029-2acf116b582f")
 		(property "Reference" "J5"
-			(at 33.02 48.2599 0)
+			(at 224.79 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2737,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 33.02 50.7999 0)
+			(at 224.79 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 48.26 0)
+			(at 222.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 48.26 0)
+			(at 222.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2764,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 30.48 48.26 0)
+			(at 222.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2789,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 69.85 0)
+		(at 106.68 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2728,7 +2798,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5b234e0-fbea-489d-82e7-b8112b084de5")
 		(property "Reference" "C3"
-			(at 181.61 68.5799 0)
+			(at 110.49 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +2807,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 181.61 71.1199 0)
+			(at 110.49 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.7652 73.66 0)
+			(at 107.6452 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +2825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 69.85 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +2834,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 69.85 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2859,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 74.93 57.15 0)
+		(at 218.44 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2798,7 +2868,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8b92210-9bc1-400e-ae24-bb1ea878e3f9")
 		(property "Reference" "J1"
-			(at 75.565 52.07 0)
+			(at 219.075 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2876,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 75.565 54.61 0)
+			(at 219.075 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 57.15 0)
+			(at 218.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 57.15 0)
+			(at 218.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2902,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 74.93 57.15 0)
+			(at 218.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2927,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM7806_TO220")
-		(at 76.2 102.87 0)
+		(at 101.6 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2866,7 +2936,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca32cc11-a1af-44c1-bd1e-c699e94410af")
 		(property "Reference" "U1"
-			(at 76.2 96.52 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2944,7 @@
 			)
 		)
 		(property "Value" "LM7806_TO220"
-			(at 76.2 99.06 0)
+			(at 101.6 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2952,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 76.2 97.155 0)
+			(at 101.6 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2962,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 76.2 104.14 0)
+			(at 101.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2971,7 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 6V, TO-220"
-			(at 76.2 102.87 0)
+			(at 101.6 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +2999,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 96.52 78.74 0)
+		(at 219.71 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2938,7 +3008,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd7747f1-3913-4466-9d45-3f49ff3034f7")
 		(property "Reference" "J4"
-			(at 97.155 71.12 0)
+			(at 220.345 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +3016,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 97.155 73.66 0)
+			(at 220.345 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 78.74 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +3033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 78.74 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3042,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 96.52 78.74 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
