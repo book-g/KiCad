@@ -482,8 +482,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "power_input",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(118, 0, 255)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "via_diameter": 0.8,
@@ -499,8 +499,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "power_output",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(255, 0, 247)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "via_diameter": 0.8,
@@ -516,23 +516,23 @@
     "netclass_patterns": [
       {
         "netclass": "power_input",
-        "pattern": "PWR_input"
+        "pattern": "/PWR_input"
       },
       {
         "netclass": "power_output",
-        "pattern": "5V"
+        "pattern": "/5V"
       },
       {
         "netclass": "power_output",
-        "pattern": "3.3v"
+        "pattern": "/3.3v"
       },
       {
         "netclass": "power_input",
-        "pattern": "12V"
+        "pattern": "/12V"
       },
       {
         "netclass": "power_output",
-        "pattern": "PWR_output"
+        "pattern": "/PWR_output"
       }
     ]
   },
