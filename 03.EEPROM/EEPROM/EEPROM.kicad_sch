@@ -2371,7 +2371,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 143.51 101.6 0)
+		(at 228.6 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2380,23 +2380,25 @@
 		(fields_autoplaced yes)
 		(uuid "03160935-0bcc-49ae-afab-c9d68b6c05e7")
 		(property "Reference" "D2"
-			(at 141.9225 95.25 0)
+			(at 232.41 65.0874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED"
-			(at 141.9225 97.79 0)
+			(at 232.41 67.6274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 101.6 0)
+			(at 228.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 101.6 0)
+			(at 228.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2416,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 143.51 101.6 0)
+			(at 228.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2425,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 101.6 0)
+			(at 228.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2450,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 130.81 0)
+		(at 148.59 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2456,26 +2458,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2c597c-4bb4-45cb-9906-a446b44fead8")
-		(property "Reference" "R6"
-			(at 91.44 129.5399 0)
+		(property "Reference" "R5"
+			(at 148.59 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 91.44 132.0799 0)
+			(at 148.59 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 87.122 130.81 90)
+			(at 148.59 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2484,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 130.81 0)
+			(at 148.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2493,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 130.81 0)
+			(at 148.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2510,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2518,7 +2518,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 167.64 106.68 0)
+		(at 247.65 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2527,7 +2527,7 @@
 		(fields_autoplaced yes)
 		(uuid "134bfbe6-c8e3-4e9d-9ade-84e51873f918")
 		(property "Reference" "BT1"
-			(at 171.45 104.8384 0)
+			(at 251.46 46.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2536,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 171.45 107.3784 0)
+			(at 251.46 48.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 105.156 90)
+			(at 247.65 46.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2554,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 105.156 90)
+			(at 247.65 46.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2563,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 167.64 106.68 0)
+			(at 247.65 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2588,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 130.81 0)
+		(at 102.87 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2597,7 +2597,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cdf9e20-b71b-476c-ac67-c2ecd88fdacd")
 		(property "Reference" "C1"
-			(at 130.81 129.5399 0)
+			(at 106.68 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2606,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 130.81 132.0799 0)
+			(at 106.68 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.9652 134.62 0)
+			(at 103.8352 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 130.81 0)
+			(at 102.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2633,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 130.81 0)
+			(at 102.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2658,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 130.81 0)
+		(at 101.6 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2666,8 +2666,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c97151a-bb3d-42c9-8c1e-acfea8203471")
-		(property "Reference" "R2"
-			(at 60.96 129.5399 0)
+		(property "Reference" "R4"
+			(at 104.14 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2676,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 60.96 132.0799 0)
+			(at 104.14 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.642 130.81 90)
+			(at 99.822 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 130.81 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2703,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 130.81 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2720,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2728,7 +2728,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 130.81 0)
+		(at 87.63 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2736,8 +2736,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486b689e-e30e-4f13-8f81-8febe6c27685")
-		(property "Reference" "R5"
-			(at 83.82 129.5399 0)
+		(property "Reference" "R1"
+			(at 90.17 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2746,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 83.82 132.0799 0)
+			(at 90.17 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +2755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.502 130.81 90)
+			(at 85.852 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +2764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 130.81 0)
+			(at 87.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2773,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 130.81 0)
+			(at 87.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2790,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2798,7 +2798,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 130.81 0)
+		(at 228.6 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2806,8 +2806,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ed3b7e1-67f4-489e-aad1-4723ce422d8a")
-		(property "Reference" "R3"
-			(at 68.58 129.5399 0)
+		(property "Reference" "R7"
+			(at 231.14 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 68.58 132.0799 0)
+			(at 231.14 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.262 130.81 90)
+			(at 226.822 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 130.81 0)
+			(at 228.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +2843,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 130.81 0)
+			(at 228.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +2860,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2868,7 +2868,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 130.81 0)
+		(at 166.37 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2876,26 +2876,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d797c7d-ab87-4d36-8ed6-254b06342d1d")
-		(property "Reference" "R7"
-			(at 99.06 129.5399 0)
+		(property "Reference" "R6"
+			(at 166.37 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 99.06 132.0799 0)
+			(at 166.37 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 94.742 130.81 90)
+			(at 166.37 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2902,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 130.81 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2911,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 130.81 0)
+			(at 166.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +2928,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2938,7 +2936,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 156.21 101.6 0)
+		(at 167.64 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2947,7 +2945,7 @@
 		(fields_autoplaced yes)
 		(uuid "69803d3c-7a01-4288-9689-b39cb638f00f")
 		(property "Reference" "D1"
-			(at 154.6225 95.25 0)
+			(at 166.0525 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2953,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 154.6225 97.79 0)
+			(at 166.0525 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +2961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 101.6 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 101.6 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +2979,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 156.21 101.6 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +2988,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 101.6 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3013,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 130.81 0)
+		(at 148.59 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3023,26 +3021,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b8a31ad-9870-4765-9b8b-9abc70512f18")
-		(property "Reference" "C2"
-			(at 140.97 129.5399 0)
+		(property "Reference" "C3"
+			(at 148.59 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "C"
-			(at 140.97 132.0799 0)
+			(at 148.59 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 138.1252 134.62 0)
+			(at 152.4 86.6648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 130.81 0)
+			(at 148.59 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3056,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 130.81 0)
+			(at 148.59 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +3073,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3085,7 +3081,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 130.81 0)
+		(at 148.59 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3093,26 +3089,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "714efb01-5828-4992-98eb-d7db79d076f1")
-		(property "Reference" "C3"
-			(at 149.86 129.5399 0)
+		(property "Reference" "C2"
+			(at 148.59 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "C"
-			(at 149.86 132.0799 0)
+			(at 148.59 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 147.0152 134.62 0)
+			(at 152.4 72.6948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 130.81 0)
+			(at 148.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3124,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 130.81 0)
+			(at 148.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3141,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3155,7 +3149,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 127 152.4 0)
+		(at 207.01 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3164,7 +3158,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f8921a9-fb38-4462-ac1f-60fae2942ff1")
 		(property "Reference" "H1"
-			(at 129.54 151.1299 0)
+			(at 209.55 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3167,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 129.54 153.6699 0)
+			(at 209.55 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 152.4 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 152.4 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3194,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 127 152.4 0)
+			(at 207.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3213,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 118.11 101.6 0)
+		(at 27.94 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3227,24 +3221,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961dc7c3-2b3f-417a-ad53-0355dc56f55d")
-		(property "Reference" "Y2"
-			(at 118.11 93.98 0)
+		(property "Reference" "Y1"
+			(at 31.75 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Crystal"
-			(at 118.11 96.52 0)
+			(at 31.75 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 101.6 0)
+			(at 27.94 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 101.6 0)
+			(at 27.94 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3258,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 118.11 101.6 0)
+			(at 27.94 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3275,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3283,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 130.81 0)
+		(at 93.98 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3295,8 +3291,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a09bb915-2153-4879-8c87-cbc4c575386b")
-		(property "Reference" "R1"
-			(at 53.34 129.5399 0)
+		(property "Reference" "R2"
+			(at 96.52 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,7 +3301,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 53.34 132.0799 0)
+			(at 96.52 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.022 130.81 90)
+			(at 92.202 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 130.81 0)
+			(at 93.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3328,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 130.81 0)
+			(at 93.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3345,7 @@
 		(instances
 			(project ""
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3357,7 +3353,7 @@
 	)
 	(symbol
 		(lib_id "DS1337S_:DS1337S_")
-		(at 36.83 92.71 0)
+		(at 63.5 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3365,8 +3361,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad049ba2-773b-4ff8-b2b8-2a5844b62490")
-		(property "Reference" "U3"
-			(at 36.83 72.39 0)
+		(property "Reference" "U2"
+			(at 63.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3370,7 @@
 			)
 		)
 		(property "Value" "DS1337S_"
-			(at 36.83 74.93 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3378,7 @@
 			)
 		)
 		(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,7 +3406,7 @@
 			)
 		)
 		(property "MF" "Maxim Integrated Products"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3416,7 @@
 			)
 		)
 		(property "Description_1" "Real Time Clock (RTC) IC Clock/Calendar I2C, 2-Wire Serial 8-SOIC (0.154, 3.90mm Width)"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3426,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Maxim"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3436,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3446,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1337S+/Maxim+Integrated/view-part/?ref=snap"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3456,7 @@
 			)
 		)
 		(property "MP" "DS1337S+"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3466,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3476,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DS1337S+/Maxim+Integrated/view-part/?ref=eda"
-			(at 36.83 92.71 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +3512,7 @@
 		(instances
 			(project ""
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3520,7 @@
 	)
 	(symbol
 		(lib_id "ATMEGA328P-AU:ATMEGA328P-AU")
-		(at 83.82 82.55 0)
+		(at 198.12 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3533,7 +3529,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd453d18-a044-4d30-b489-ae4812e51626")
 		(property "Reference" "U4"
-			(at 83.82 49.53 0)
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3537,7 @@
 			)
 		)
 		(property "Value" "ATMEGA328P-AU"
-			(at 83.82 52.07 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3545,7 @@
 			)
 		)
 		(property "Footprint" "ATMEGA328P-AU:QFP80P900X900X120-32N"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3573,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "ATMEGA328P-AU-ND"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3583,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip/view-part/?ref=snap"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3593,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.20mm"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3603,7 @@
 			)
 		)
 		(property "Package" "TQFP-32 Microchip"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3613,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip/view-part/?ref=eda"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3623,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3633,7 @@
 			)
 		)
 		(property "PARTREV" "8271A"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3643,7 @@
 			)
 		)
 		(property "MF" "MICROCHIP TECH."
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3653,7 @@
 			)
 		)
 		(property "MP" "ATMEGA328P-AU"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3663,7 @@
 			)
 		)
 		(property "Description_1" "MCU 8-bit - AVR ATmega Family ATmega328 Series Microcontrollers - 20 MHz - 32 KB - 2 KB - 32 Pins."
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3673,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Microchip"
-			(at 83.82 82.55 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3789,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 127 175.26 0)
+		(at 207.01 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3802,7 +3798,7 @@
 		(fields_autoplaced yes)
 		(uuid "beaf6934-582a-403c-a643-02d698caeb35")
 		(property "Reference" "H4"
-			(at 129.54 173.9899 0)
+			(at 209.55 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3807,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 129.54 176.5299 0)
+			(at 209.55 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 175.26 0)
+			(at 207.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 175.26 0)
+			(at 207.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3834,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 127 175.26 0)
+			(at 207.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 154.94 130.81 0)
+		(at 167.64 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3866,7 +3862,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf9b04d1-220e-4c2e-9a72-9191454deee3")
 		(property "Reference" "C4"
-			(at 158.75 129.5399 0)
+			(at 171.45 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3871,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 158.75 132.0799 0)
+			(at 171.45 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.9052 134.62 0)
+			(at 168.6052 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 130.81 0)
+			(at 167.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3898,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 154.94 130.81 0)
+			(at 167.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3923,7 @@
 	)
 	(symbol
 		(lib_id "Memory_EEPROM:24LC1025")
-		(at 39.37 154.94 0)
+		(at 45.72 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3936,7 +3932,7 @@
 		(fields_autoplaced yes)
 		(uuid "d63dffa0-62e2-432b-8de6-fbc1a5846ce8")
 		(property "Reference" "U1"
-			(at 41.5133 144.78 0)
+			(at 47.8633 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3941,7 @@
 			)
 		)
 		(property "Value" "24LC1025"
-			(at 41.5133 147.32 0)
+			(at 47.8633 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 154.94 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3959,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf"
-			(at 39.37 154.94 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3968,7 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
-			(at 39.37 154.94 0)
+			(at 45.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +4011,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 127 160.02 0)
+		(at 207.01 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4024,7 +4020,7 @@
 		(fields_autoplaced yes)
 		(uuid "dca81fb5-2cf8-4295-a431-c42a39bc874f")
 		(property "Reference" "H2"
-			(at 129.54 158.7499 0)
+			(at 209.55 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4029,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 129.54 161.2899 0)
+			(at 209.55 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 160.02 0)
+			(at 207.01 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 160.02 0)
+			(at 207.01 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4056,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 127 160.02 0)
+			(at 207.01 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +4075,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 130.81 0)
+		(at 95.25 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4087,8 +4083,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded333b9-a3e5-4125-9e55-1458c7cf443d")
-		(property "Reference" "R4"
-			(at 76.2 129.5399 0)
+		(property "Reference" "R3"
+			(at 97.79 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4093,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 76.2 132.0799 0)
+			(at 97.79 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.882 130.81 90)
+			(at 93.472 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 130.81 0)
+			(at 95.25 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4120,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 130.81 0)
+			(at 95.25 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4137,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4149,7 +4145,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 130.81 101.6 0)
+		(at 166.37 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4157,24 +4153,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0ae832-28d5-45be-82b8-d2e78c97616e")
-		(property "Reference" "Y1"
-			(at 130.81 93.98 0)
+		(property "Reference" "Y2"
+			(at 170.18 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Crystal"
-			(at 130.81 96.52 0)
+			(at 170.18 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 101.6 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 101.6 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4190,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 130.81 101.6 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4207,7 @@
 		(instances
 			(project ""
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "Y1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -4217,7 +4215,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 127 167.64 0)
+		(at 207.01 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4226,7 +4224,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3c01485-a5bc-4037-94ca-425673e56752")
 		(property "Reference" "H3"
-			(at 129.54 166.3699 0)
+			(at 209.55 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4233,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 129.54 168.9099 0)
+			(at 209.55 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 167.64 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 167.64 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4260,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 127 167.64 0)
+			(at 207.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4279,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 167.64 130.81 0)
+		(at 236.22 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4290,7 +4288,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7ca82ad-dd27-4edd-bbac-70fb1a819aa2")
 		(property "Reference" "C5"
-			(at 171.45 128.6509 0)
+			(at 240.03 44.8309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4297,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 171.45 131.1909 0)
+			(at 240.03 47.3709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.6052 134.62 0)
+			(at 237.1852 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 130.81 0)
+			(at 236.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4324,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 167.64 130.81 0)
+			(at 236.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4349,7 @@
 	)
 	(symbol
 		(lib_id "Memory_EEPROM:24LC1025")
-		(at 68.58 154.94 0)
+		(at 74.93 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4359,8 +4357,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fabb0b2c-92d1-45af-baeb-7ea1e5542998")
-		(property "Reference" "U2"
-			(at 70.7233 144.78 0)
+		(property "Reference" "U3"
+			(at 77.0733 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4367,7 @@
 			)
 		)
 		(property "Value" "24LC1025"
-			(at 70.7233 147.32 0)
+			(at 77.0733 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 154.94 0)
+			(at 74.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf"
-			(at 68.58 154.94 0)
+			(at 74.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4394,7 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
-			(at 68.58 154.94 0)
+			(at 74.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,14 +4429,14 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 203.2 76.2)
+		(at 175.768 128.27)
 		(size 25.4 26.162)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4454,7 +4452,7 @@
 		)
 		(uuid "d76e24af-64fe-4fa3-a6dd-5371cafe37dc")
 		(property "Sheetname" "Connector"
-			(at 203.2 75.4884 0)
+			(at 175.768 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4461,7 @@
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 203.2 102.9466 0)
+			(at 175.768 155.0166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
