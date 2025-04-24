@@ -420,6 +420,10 @@
     [
       "b4f5f33e-7286-44f8-9677-0db3208b5bbd",
       "Root"
+    ],
+    [
+      "d76e24af-64fe-4fa3-a6dd-5371cafe37dc",
+      "Connector"
     ]
   ],
   "text_variables": {

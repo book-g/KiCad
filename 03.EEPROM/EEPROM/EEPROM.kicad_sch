@@ -4437,6 +4437,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 203.2 76.2)
+		(size 25.4 26.162)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d76e24af-64fe-4fa3-a6dd-5371cafe37dc")
+		(property "Sheetname" "Connector"
+			(at 203.2 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 203.2 102.9466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EEPROM"
+				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
