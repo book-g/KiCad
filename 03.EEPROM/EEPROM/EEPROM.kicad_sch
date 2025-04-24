@@ -2466,7 +2466,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 148.59 54.61 90)
 			(effects
 				(font
@@ -2588,7 +2588,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 59.69 0)
+		(at 109.22 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2597,7 +2597,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cdf9e20-b71b-476c-ac67-c2ecd88fdacd")
 		(property "Reference" "C1"
-			(at 106.68 58.4199 0)
+			(at 113.03 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,8 +2605,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 106.68 60.9599 0)
+		(property "Value" "0.1uF"
+			(at 113.03 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.8352 63.5 0)
+			(at 110.1852 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 59.69 0)
+			(at 109.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2633,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 59.69 0)
+			(at 109.22 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2658,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 139.7 0)
+		(at 114.3 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2667,7 +2667,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c97151a-bb3d-42c9-8c1e-acfea8203471")
 		(property "Reference" "R4"
-			(at 104.14 138.4299 0)
+			(at 116.84 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,8 +2675,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 104.14 140.9699 0)
+		(property "Value" "4.7 K"
+			(at 116.84 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.822 139.7 90)
+			(at 112.522 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 139.7 0)
+			(at 114.3 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2703,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 139.7 0)
+			(at 114.3 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 90.17 60.9599 0)
 			(effects
 				(font
@@ -2815,7 +2815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 231.14 81.2799 0)
 			(effects
 				(font
@@ -2884,7 +2884,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10 K"
 			(at 166.37 87.63 90)
 			(effects
 				(font
@@ -3029,7 +3029,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 148.59 82.55 90)
 			(effects
 				(font
@@ -3097,7 +3097,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 148.59 68.58 90)
 			(effects
 				(font
@@ -3230,7 +3230,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.728 KHz"
 			(at 31.75 67.3099 90)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 139.7 0)
+		(at 105.41 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3291,8 +3291,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a09bb915-2153-4879-8c87-cbc4c575386b")
-		(property "Reference" "R2"
-			(at 96.52 138.4299 0)
+		(property "Reference" "R3"
+			(at 107.95 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,8 +3300,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 96.52 140.9699 0)
+		(property "Value" "4.7 K"
+			(at 107.95 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.202 139.7 90)
+			(at 103.632 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 139.7 0)
+			(at 105.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3328,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 139.7 0)
+			(at 105.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3345,7 @@
 		(instances
 			(project ""
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3870,7 +3870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 171.45 48.2599 0)
 			(effects
 				(font
@@ -4075,7 +4075,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 59.69 0)
+		(at 101.6 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4083,8 +4083,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded333b9-a3e5-4125-9e55-1458c7cf443d")
-		(property "Reference" "R3"
-			(at 97.79 58.4199 0)
+		(property "Reference" "R2"
+			(at 104.14 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,8 +4092,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 97.79 60.9599 0)
+		(property "Value" "10K"
+			(at 104.14 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.472 59.69 90)
+			(at 99.822 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 59.69 0)
+			(at 101.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4120,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 59.69 0)
+			(at 101.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4137,7 @@
 		(instances
 			(project "EEPROM"
 				(path "/b4f5f33e-7286-44f8-9677-0db3208b5bbd"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4162,7 +4162,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16 MHz"
 			(at 170.18 78.7399 90)
 			(effects
 				(font
@@ -4279,7 +4279,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 236.22 46.99 0)
+		(at 233.68 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4288,7 +4288,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7ca82ad-dd27-4edd-bbac-70fb1a819aa2")
 		(property "Reference" "C5"
-			(at 240.03 44.8309 0)
+			(at 237.49 44.8309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,8 +4296,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 240.03 47.3709 0)
+		(property "Value" "100nF"
+			(at 237.49 47.3709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.1852 50.8 0)
+			(at 234.6452 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 46.99 0)
+			(at 233.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4324,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 236.22 46.99 0)
+			(at 233.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
